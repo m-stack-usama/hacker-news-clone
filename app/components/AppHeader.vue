@@ -6,9 +6,9 @@
           <h1>Hacker News</h1>
           <!-- Navigation links for different feeds -->
           <div class="space-x-5">
-            <!-- v-for Loop through feedsInfo object -->
-            <!-- :key="key"   Generates a dynamic route based on the key -->
-            <!-- :class Adds 'active' class if the current route matches -->
+            <!-- v-for Loop through feedsInfo object 
+            :key="key"   Generates a dynamic route based on the key
+            :class Adds 'active' class if the current route matches -->
             <NuxtLink
               v-for="(list, key) in feedsInfo"
               :key="key"
